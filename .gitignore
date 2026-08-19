@@ -1,5 +1,6 @@
 # Distributed separately: see banks/README.md
 banks/*.pt
+models/*.pt
 artifacts_external/
 
 out/

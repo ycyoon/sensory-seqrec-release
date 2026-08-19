@@ -16,11 +16,16 @@ backbones, five Amazon-2014 domains) from the precomputed sensory facet banks.
 - `scripts/reproduce_table.sh` — regenerates every main-table cell.
 - `configs/manifest.json` — SHA-256 of every shipped file.
 
+- `models/` — the distilled sensory student encoder that produces the banks,
+  so banks can be built for items outside this release. Distributed separately;
+  see `models/README.md`.
+
 ## What is not included, and why it does not matter here
 
-The annotation pipeline (seed labelling, teacher, student) was produced under a
-third-party agreement and is not released. It is not required to reproduce any
-reported recommendation result: the banks fully determine the sensory input.
+The seed annotations, the teacher model, and the extraction prompts were produced
+under a third-party agreement and are not released. They are not required to
+reproduce any reported recommendation result: the banks fully determine the
+sensory input to the recommender, and the released student reproduces the banks.
 
 ## Evaluation protocol
 
