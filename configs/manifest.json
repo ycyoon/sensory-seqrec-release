@@ -1,0 +1,22 @@
+{
+  "banks/bank-beauty.pt": {
+    "sha256": "191b2954b716e21c4a3749306737f1a47ee652cf5b6ce7abb5fb06e97e5f991d",
+    "bytes": 187906629
+  },
+  "banks/bank-grocery.pt": {
+    "sha256": "16ed42460d39d9e4cd14dfe8ec500eff7266940a9703e213e16c4006bf943f03",
+    "bytes": 135297745
+  },
+  "banks/bank-sports.pt": {
+    "sha256": "cecdd14b8cafa041aff91b8e7624e888c76a0ce1dfe902f37691739f9163017b",
+    "bytes": 285049925
+  },
+  "banks/bank-toys.pt": {
+    "sha256": "88fbcdb45900ea231ba680365f45c4648513c86c7dd5a31ecebd84dabf84bf97",
+    "bytes": 185158189
+  },
+  "banks/bank-video_games.pt": {
+    "sha256": "6d873e766e05577729e5a663f8adfac1687cb1b69a72bd437fb451fe48ecaa8c",
+    "bytes": 165717313
+  }
+}

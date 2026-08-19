@@ -1,0 +1,7 @@
+# Distributed separately: see banks/README.md
+banks/*.pt
+artifacts_external/
+
+out/
+*.pyc
+__pycache__/
