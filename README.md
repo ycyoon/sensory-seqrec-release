@@ -43,6 +43,14 @@ bash scripts/reproduce_table.sh   # ~2 days on 2 GPUs (BERT4Rec base training do
 # Each cell reports base vs base+relation from a single evaluator.
 ```
 
+## Archived artifacts
+
+The facet banks and the student encoder are archived at
+<https://doi.org/10.5281/zenodo.22008657> (CC-BY-4.0). Download them into
+`banks/` and `models/` as described in the README of each directory, then run
+`python scripts/verify_banks.py` to check every file against the SHA-256
+checksums in `configs/manifest.json`.
+
 ## Anonymity
 
 This repository is released anonymously for peer review. It contains no author,

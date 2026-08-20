@@ -7,7 +7,7 @@ recommendation result regenerates from them without the annotation pipeline.
 They are distributed separately because each exceeds the 100 MB per-file limit
 of a Git repository (916 MB in total). Download them into this directory:
 
-    <ANONYMOUS_ARCHIVE_URL>
+    https://doi.org/10.5281/zenodo.22008657
 
 Expected layout after download:
 

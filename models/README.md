@@ -10,7 +10,7 @@ directly from item text, without the seed model and without the teacher.
 
 Download it into this directory alongside the banks:
 
-    <ANONYMOUS_ARCHIVE_URL>
+    https://doi.org/10.5281/zenodo.22008657
 
     models/student-discriminative-v1.pt      (617 MB)
 
