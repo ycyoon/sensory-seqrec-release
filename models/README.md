@@ -28,6 +28,13 @@ Building a bank for new items:
 Optimizer and scheduler states were removed; the checkpoint carries the model
 weights, the training metadata, and the validation history.
 
+**Provenance.** The student's text encoder is `microsoft/deberta-v3-small`.
+Its dense supervision targets (example-level and canonical facet embeddings)
+were encoded with the frozen general-purpose sentence encoder
+`sentence-transformers/all-mpnet-base-v2` (768-d), as recorded in the
+supervision-build manifests; the target encoder is used only to construct
+supervision and is not needed at bank-construction or recommendation time.
+
 **Not included.** The seed annotations and the teacher were produced under a
 third-party agreement and are not released. They are not required to reproduce
 any result reported in the paper: the banks fully determine the sensory input
