@@ -28,7 +28,8 @@ Building a bank for new items:
 Optimizer and scheduler states were removed; the checkpoint carries the model
 weights, the training metadata, and the validation history.
 
-**Not included.** The seed annotations, the teacher, and the extraction prompts
-were produced under a third-party agreement and are not released. They are not
-required to reproduce any result reported in the paper: the banks fully
-determine the sensory input to the recommender.
+**Not included.** The seed annotations and the teacher were produced under a
+third-party agreement and are not released. They are not required to reproduce
+any result reported in the paper: the banks fully determine the sensory input
+to the recommender. The seed prompt and extraction schema are published in the
+paper's appendix.

@@ -22,10 +22,12 @@ backbones, five Amazon-2014 domains) from the precomputed sensory facet banks.
 
 ## What is not included, and why it does not matter here
 
-The seed annotations, the teacher model, and the extraction prompts were produced
-under a third-party agreement and are not released. They are not required to
-reproduce any reported recommendation result: the banks fully determine the
-sensory input to the recommender, and the released student reproduces the banks.
+The seed annotations and the teacher model were produced under a third-party
+agreement and are not released. They are not required to reproduce any reported
+recommendation result: the banks fully determine the sensory input to the
+recommender, and the released student reproduces the banks. The seed prompt and
+the extraction schema are published in the paper's appendix, so the seed stage
+can be re-run with any instruction-following model.
 
 ## Evaluation protocol
 
