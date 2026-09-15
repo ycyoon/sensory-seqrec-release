@@ -1,5 +1,11 @@
 # ASER — recommender-side release
 
+Official code release for
+
+> **Sensory-Aware Sequential Recommendation via Review-Distilled Representations**
+> Yeo-Chan Yoon\*, Chanjun Park\*, Kyuhan Koh
+> *Knowledge-Based Systems*, accepted 2026. (\* equal contribution)
+
 Reproduces the sensory-aware sequential recommendation results (all four
 backbones, five Amazon-2014 domains) from the precomputed sensory facet banks.
 
@@ -53,8 +59,26 @@ The facet banks and the student encoder are archived at
 `python scripts/verify_banks.py` to check every file against the SHA-256
 checksums in `configs/manifest.json`.
 
-## Anonymity
+## Authors
 
-This repository is released anonymously for peer review. It contains no author,
-institution, or funding information, and the artifacts carry no filesystem paths
-from the machine that produced them.
+- Yeo-Chan Yoon (Jeju National University, corresponding author,
+  <ycyoon@jejunu.ac.kr>)
+- Chanjun Park (Soongsil University)
+- Kyuhan Koh (California State University Stanislaus)
+
+Yeo-Chan Yoon and Chanjun Park contributed equally to this research.
+
+This repository is the permanent, non-anonymized home of the code that was
+reviewed under an anonymous mirror; the content is unchanged.
+
+## Citation
+
+```bibtex
+@article{yoon2026sensory,
+  title   = {Sensory-Aware Sequential Recommendation via Review-Distilled Representations},
+  author  = {Yoon, Yeo-Chan and Park, Chanjun and Koh, Kyuhan},
+  journal = {Knowledge-Based Systems},
+  year    = {2026},
+  note    = {Accepted}
+}
+```
